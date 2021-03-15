@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+/* Reset */
+* {
+    color: #000;
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a { text-decoration: none; }
+a:link         { color: #222; }
+a:visited      { color: #222; }
+a:hover        { color: #333; }
+a:active       { color: #333; }
+img            { vertical-align: middle; }
+ul             { list-style: none; }
+/* Reset */
+
+/* div#wrap */
+div#wrap {
+    width: 1020px;
+    padding: 10px;
+    border: 1px solid #000;
+    margin: 40px auto;
+}
+/* div#wrap */
+
+/* 슬라이드 쇼 BTT */
+
+div#slideArea {
+    width: 1000px;
+    height: 350px; /* 이미지 1개의 높이만큼 설정 */
+    overflow: hidden;
+}
+div#shuttleFrame {
+    width: 1000px; /* 이미지 1개의 폭만큼 설정 */
+}
+#slideArea a {
+    /* float: left; 사용하지 않음.*/
+    position: relative;
+}
+#slideArea span {
+    width: 200px;
+    height: 100px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 100px;
+    background-color: rgba(255, 255, 255, 0.6);
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* 슬라이드 쇼 BTT */
+
+
+
+
+
+
+
+
+
+
+
+
+
